@@ -8,6 +8,7 @@ API Reference
    auth
    client
    http_client
+   scheduler
    models/index
    utils
    exceptions

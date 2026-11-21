@@ -22,6 +22,13 @@ from .exceptions import (
     WorksheetNotFound,
 )
 from .http_client import BackOffHTTPClient, HTTPClient
+from .scheduler import (
+    BatchReadScheduler,
+    ReadMethod,
+    ReadResult,
+    ReadTask,
+    SchedulerConfig,
+)
 from .spreadsheet import Spreadsheet
 from .worksheet import ValueRange, Worksheet
 
@@ -46,6 +53,13 @@ __all__ = [
     # from .http_client
     "BackOffHTTPClient",
     "HTTPClient",
+
+    # from .scheduler
+    "BatchReadScheduler",
+    "ReadMethod",
+    "ReadResult",
+    "ReadTask",
+    "SchedulerConfig",
 
     # from .spreadsheet
     "Spreadsheet",
